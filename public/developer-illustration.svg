@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Elements -->
+  <defs>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f97316;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#f97316;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Floating Code Blocks -->
+  <g transform="translate(50, 100)">
+    <!-- Code Window 1 -->
+    <rect x="0" y="0" width="200" height="120" rx="10" fill="#1f2937" opacity="0.9"/>
+    <rect x="10" y="10" width="180" height="20" rx="5" fill="#374151"/>
+    <circle cx="25" cy="20" r="5" fill="#ef4444"/>
+    <circle cx="45" cy="20" r="5" fill="#f59e0b"/>
+    <circle cx="65" cy="20" r="5" fill="#10b981"/>
+    
+    <!-- Code Lines -->
+    <rect x="20" y="45" width="140" height="8" rx="4" fill="#4b5563" opacity="0.7"/>
+    <rect x="20" y="65" width="120" height="8" rx="4" fill="#4b5563" opacity="0.7"/>
+    <rect x="20" y="85" width="160" height="8" rx="4" fill="#4b5563" opacity="0.7"/>
+  </g>
+  
+  <!-- Floating Code Blocks 2 -->
+  <g transform="translate(300, 200)">
+    <rect x="0" y="0" width="180" height="100" rx="10" fill="#1f2937" opacity="0.9"/>
+    <rect x="10" y="10" width="160" height="20" rx="5" fill="#374151"/>
+    <circle cx="25" cy="20" r="5" fill="#ef4444"/>
+    <circle cx="45" cy="20" r="5" fill="#f59e0b"/>
+    <circle cx="65" cy="20" r="5" fill="#10b981"/>
+    
+    <!-- Code Lines -->
+    <rect x="20" y="45" width="120" height="8" rx="4" fill="#4b5563" opacity="0.7"/>
+    <rect x="20" y="65" width="140" height="8" rx="4" fill="#4b5563" opacity="0.7"/>
+  </g>
+
+  <!-- Central Element -->
+  <g transform="translate(200, 150)">
+    <!-- Browser Window -->
+    <rect x="0" y="0" width="400" height="300" rx="15" fill="#1f2937" opacity="0.95"/>
+    <rect x="0" y="0" width="400" height="40" rx="15" fill="#374151"/>
+    <circle cx="30" cy="20" r="6" fill="#ef4444"/>
+    <circle cx="55" cy="20" r="6" fill="#f59e0b"/>
+    <circle cx="80" cy="20" r="6" fill="#10b981"/>
+    
+    <!-- Content Area -->
+    <rect x="20" y="60" width="360" height="220" rx="8" fill="#111827"/>
+    
+    <!-- Code Elements -->
+    <g transform="translate(40, 80)">
+      <!-- Function Declaration -->
+      <text x="0" y="0" fill="#f97316" font-family="monospace" font-size="14">function</text>
+      <text x="70" y="0" fill="#60a5fa" font-family="monospace" font-size="14">develop()</text>
+      <text x="140" y="0" fill="#e5e7eb" font-family="monospace" font-size="14">{</text>
+      
+      <!-- Code Lines -->
+      <text x="20" y="25" fill="#9ca3af" font-family="monospace" font-size="14">const solution = new Solution();</text>
+      <text x="20" y="50" fill="#9ca3af" font-family="monospace" font-size="14">solution.innovate();</text>
+      <text x="20" y="75" fill="#9ca3af" font-family="monospace" font-size="14">return success;</text>
+      <text x="0" y="100" fill="#e5e7eb" font-family="monospace" font-size="14">}</text>
+    </g>
+  </g>
+
+  <!-- Decorative Elements -->
+  <g>
+    <!-- Circles -->
+    <circle cx="100" cy="500" r="40" fill="url(#glow)" opacity="0.6"/>
+    <circle cx="700" cy="100" r="50" fill="url(#glow)" opacity="0.4"/>
+    
+    <!-- Lines -->
+    <path d="M50,300 Q200,450 400,300 T750,300" stroke="#f97316" stroke-width="2" fill="none" opacity="0.2"/>
+    <path d="M50,320 Q200,470 400,320 T750,320" stroke="#f97316" stroke-width="1" fill="none" opacity="0.1"/>
+  </g>
+</svg>
