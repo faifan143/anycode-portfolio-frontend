@@ -131,7 +131,7 @@ const Navbar = () => {
 
             {/* Desktop Navigation */}
             <div
-              className="hidden md:flex items-center justify-between flex-1 mr-8"
+              className="hidden lg:flex items-center justify-between flex-1 mr-8"
               dir="rtl"
             >
               <motion.div
@@ -149,7 +149,7 @@ const Navbar = () => {
             </div>
 
             {/* Mobile Menu Button */}
-            <div className="md:hidden flex items-center gap-4" dir="rtl">
+            <div className="lg:hidden flex items-center gap-4" dir="rtl">
               <motion.button
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
