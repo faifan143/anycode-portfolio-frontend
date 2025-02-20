@@ -1303,7 +1303,7 @@ export const contactData = {
       en: "We're here to help. Contact us anytime for assistance and support",
     },
     terminal: {
-      welcomeText: "<AnyCode /> Contact",
+      welcomeText: "<AnyCode /> Contact +963 998 419 869",
       fileName: "contact.tsx",
     },
   },

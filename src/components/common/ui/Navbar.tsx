@@ -1,21 +1,17 @@
 // Navbar.tsx
 "use client";
-import { logout } from "@/redux/reducers/userSlice";
-import { AppDispatch } from "@/redux/store";
-import { AnimatePresence, motion } from "framer-motion";
-import { LogOutIcon, Menu, X } from "lucide-react";
-import { useEffect, useState } from "react";
-import { useDispatch } from "react-redux";
-import RouteWrapper from "../ui/RouteWrapper";
 import { navigationData } from "@/data/seed";
-import { getIcon } from "@/utils/getIcon";
-import React from "react";
 import { NavbarItem, NavbarItem2 } from "@/types";
+import { getIcon } from "@/utils/getIcon";
+import { AnimatePresence, motion } from "framer-motion";
+import { Menu, X } from "lucide-react";
+import React, { useEffect, useState } from "react";
+import RouteWrapper from "../ui/RouteWrapper";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeMenu, setActiveMenu] = useState<string | null>(null);
-  const dispatch = useDispatch<AppDispatch>();
+  const isRTL = true;
 
   useEffect(() => {
     const handleResize = () => {
@@ -28,7 +24,9 @@ const Navbar = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const handleLogout = () => dispatch(logout());
+  const handleMobileItemClick = () => {
+    setIsMobileMenuOpen(false);
+  };
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -149,7 +147,7 @@ const Navbar = () => {
             </div>
 
             {/* Mobile Menu Button */}
-            <div className="lg:hidden flex items-center gap-4" dir="rtl">
+            <div className="lg:hidden flex  items-center gap-4" dir="rtl">
               <motion.button
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -183,8 +181,8 @@ const Navbar = () => {
               <div className="px-2 pt-2 pb-3 space-y-1">
                 {navigationData.navigation.main.map((item) =>
                   item.items ? (
-                    <div key={item.id} className="space-y-1">
-                      <div className="px-3 py-2 text-gray-400 font-medium">
+                    <div key={item.id} className="flex flex-col gap-1 ">
+                      <div className="px-3 py-2 text-gray-400 font-medium text-end">
                         {item.name.ar}
                       </div>
                       {item.items.map((subItem) => {
@@ -192,8 +190,11 @@ const Navbar = () => {
                         return (
                           <RouteWrapper key={subItem.id} href={subItem.href}>
                             <motion.div
-                              whileHover={{ x: 4 }}
-                              className="flex items-center px-6 py-2 rounded-lg text-gray-300 hover:bg-gray-800/50 hover:text-orange-400 transition-all gap-2"
+                              whileHover={{ x: isRTL ? -4 : 4 }}
+                              onClick={handleMobileItemClick}
+                              className={`flex items-center ${
+                                isRTL ? "pr-6 flex-row-reverse" : "px-6"
+                              } py-2 rounded-lg text-gray-300 hover:bg-gray-800/50 hover:text-orange-400 transition-all gap-2`}
                             >
                               <SubIcon className="h-4 w-4 text-orange-400" />
                               <span>{subItem.name.ar}</span>
@@ -205,8 +206,11 @@ const Navbar = () => {
                   ) : (
                     <RouteWrapper key={item.id} href={item.href}>
                       <motion.div
-                        whileHover={{ x: 4 }}
-                        className="flex items-center px-3 py-2 rounded-lg text-gray-300 hover:bg-gray-800/50 hover:text-orange-400 transition-all gap-2"
+                        whileHover={{ x: isRTL ? -4 : 4 }}
+                        onClick={handleMobileItemClick}
+                        className={`flex items-center ${
+                          isRTL ? "pr-3 flex-row-reverse" : "px-3"
+                        } py-2 rounded-lg text-gray-300 hover:bg-gray-800/50 hover:text-orange-400 transition-all gap-2`}
                       >
                         {React.createElement(getIcon(item.icon), {
                           className: "h-4 w-4 text-orange-400",
@@ -216,15 +220,6 @@ const Navbar = () => {
                     </RouteWrapper>
                   )
                 )}
-
-                <motion.div
-                  whileHover={{ x: 4 }}
-                  onClick={handleLogout}
-                  className="flex items-center px-3 py-2 rounded-lg text-gray-300 hover:bg-gray-800/50 hover:text-orange-400 transition-all gap-2 cursor-pointer"
-                >
-                  <LogOutIcon className="h-4 w-4 text-orange-400" />
-                  <span>{navigationData.buttons.logout.ar}</span>
-                </motion.div>
               </div>
             </motion.div>
           )}
