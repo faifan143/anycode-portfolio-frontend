@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import LayoutProviders from "@/components/providers/LayoutProviders";
+import SEO_CONFIG from "@/seo.config";
+import { DefaultSeo } from "next-seo";
 
 export const metadata: Metadata = {
   title: "AnyCode",
@@ -15,6 +17,8 @@ export default function RootLayout({
   return (
     <html lang="ar">
       <head>
+        <DefaultSeo {...SEO_CONFIG} />
+
         <link rel="shortcut icon" href="/logo.png" type="image/png" />
         <link rel="preload" href="/logo.png" as="image" type="image/png" />
       </head>

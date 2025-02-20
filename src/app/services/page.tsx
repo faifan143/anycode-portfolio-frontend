@@ -6,6 +6,90 @@ import Link from "next/link";
 import { getIcon } from "@/utils/getIcon";
 import { ArrowUpRight } from "lucide-react";
 import RouteWrapper from "@/components/common/ui/RouteWrapper";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "خدماتنا - حلول برمجية متكاملة | AnyCode",
+  description:
+    "نقدم مجموعة متكاملة من الخدمات البرمجية والتقنية، تشمل تطوير المواقع، التطبيقات، الحلول التعليمية والمؤسسية. خبرة متخصصة وحلول مبتكرة لتطوير أعمالك",
+  keywords: [
+    "خدمات برمجية",
+    "تطوير مواقع",
+    "تطوير تطبيقات",
+    "حلول تقنية",
+    "تطوير ويب",
+    "برمجة مخصصة",
+    "خدمات تعليمية",
+    "استشارات تقنية",
+  ],
+  authors: [{ name: "AnyCode Team" }],
+  creator: "AnyCode",
+  publisher: "AnyCode",
+  formatDetection: {
+    email: false,
+    telephone: false,
+  },
+  metadataBase: new URL("http://anycode-sy.com"),
+  alternates: {
+    canonical: "/services",
+    languages: {
+      "ar-SY": "/ar/services",
+      "en-US": "/en/services",
+    },
+  },
+  openGraph: {
+    type: "website",
+    locale: "ar_SY",
+    url: "http://anycode-sy.com/services",
+    siteName: "AnyCode",
+    title: "خدماتنا - حلول برمجية احترافية | AnyCode",
+    description:
+      "استكشف خدماتنا في تطوير المواقع، التطبيقات، والحلول التقنية المتكاملة. نقدم حلولاً مبتكرة تناسب احتياجات عملك",
+    images: [
+      {
+        url: "/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "خدمات AnyCode البرمجية",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "خدمات AnyCode البرمجية المتكاملة",
+    description:
+      "حلول تقنية مبتكرة لتطوير أعمالك. تطوير مواقع، تطبيقات، وخدمات برمجية متكاملة",
+    creator: "@anycode",
+    images: ["/logo.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  // Add structured data for services
+  // other: {
+  //   service: {
+  //     "@context": "https://schema.org",
+  //     "@type": "Service",
+  //     provider: {
+  //       "@type": "Organization",
+  //       name: "AnyCode",
+  //       url: "http://anycode-sy.com",
+  //     },
+  //     serviceType: "Web Development",
+  //     areaServed: "Syria",
+  //     description:
+  //       "خدمات برمجية متكاملة تشمل تطوير المواقع والتطبيقات والحلول التقنية",
+  //   },
+  // },
+};
 
 const Services = () => {
   const containerVariants = {

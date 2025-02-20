@@ -9,6 +9,73 @@ import {
   itemVariants,
 } from "@/components/animations/varients";
 import { getIcon } from "@/utils/getIcon";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "معرض الأعمال والمشاريع - AnyCode",
+  description:
+    "استعرض أحدث مشاريعنا في تطوير المواقع والتطبيقات. مجموعة متنوعة من المشاريع الناجحة في مختلف المجالات التقنية، من المواقع التجارية إلى التطبيقات المتقدمة",
+  keywords: [
+    "معرض أعمال",
+    "مشاريع برمجية",
+    "حافظة أعمال",
+    "مشاريع تطوير مواقع",
+    "مشاريع تطبيقات",
+    "بورتفوليو",
+    "نماذج أعمال",
+    "مشاريع منجزة",
+  ],
+  authors: [{ name: "AnyCode Team" }],
+  creator: "AnyCode",
+  publisher: "AnyCode",
+  formatDetection: {
+    email: false,
+    telephone: false,
+  },
+  metadataBase: new URL("http://anycode-sy.com"),
+  alternates: {
+    canonical: "/projects",
+    languages: {
+      "ar-SY": "/ar/projects",
+      "en-US": "/en/projects",
+    },
+  },
+  openGraph: {
+    type: "website",
+    locale: "ar_SY",
+    url: "http://anycode-sy.com/projects",
+    siteName: "AnyCode",
+    title: "معرض أعمال ومشاريع AnyCode",
+    description:
+      "استعرض مشاريعنا المتميزة في تطوير المواقع والتطبيقات. حلول تقنية مبتكرة ومشاريع ناجحة",
+    images: [
+      {
+        url: "/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "معرض مشاريع AnyCode",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "معرض مشاريع AnyCode - أعمالنا المتميزة",
+    description: "تصفح أحدث مشاريعنا في تطوير المواقع والتطبيقات",
+    creator: "@anycode",
+    images: ["/logo.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+};
 
 const Projects = () => {
   const [currentPage, setCurrentPage] = useState(1);

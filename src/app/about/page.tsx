@@ -4,6 +4,73 @@ import * as Icons from "lucide-react";
 import { aboutData } from "@/data/seed";
 import RouteWrapper from "@/components/common/ui/RouteWrapper";
 import { getIcon } from "@/utils/getIcon";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "من نحن - شركة AnyCode لحلول البرمجة والتطوير",
+  description:
+    "تعرف على قصة نجاح AnyCode، خبراتنا، قيمنا، وفريقنا المتخصص في تطوير المواقع والتطبيقات. نقدم حلولاً تقنية مبتكرة للشركات والمؤسسات التعليمية",
+  keywords: [
+    "عن AnyCode",
+    "شركة برمجة",
+    "تطوير مواقع",
+    "خدمات تقنية",
+    "حلول برمجية",
+    "تطوير تطبيقات",
+    "خدمات تعليمية",
+    "تدريب برمجة",
+  ],
+  authors: [{ name: "AnyCode Team" }],
+  creator: "AnyCode",
+  publisher: "AnyCode",
+  formatDetection: {
+    email: false,
+    telephone: false,
+  },
+  metadataBase: new URL("http://anycode-sy.com"),
+  alternates: {
+    canonical: "/about",
+    languages: {
+      "ar-SY": "/ar/about",
+      "en-US": "/en/about",
+    },
+  },
+  openGraph: {
+    type: "website",
+    locale: "ar_SY",
+    url: "http://anycode-sy.com/about",
+    siteName: "AnyCode",
+    title: "من نحن - AnyCode للحلول البرمجية المتكاملة",
+    description:
+      "تعرف على قصة نجاح AnyCode، خبراتنا، قيمنا، وفريقنا المتخصص في تطوير المواقع والتطبيقات",
+    images: [
+      {
+        url: "/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "من نحن - AnyCode للحلول البرمجية",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "من نحن - AnyCode للحلول البرمجية",
+    description: "تعرف على فريق AnyCode المتخصص في تطوير المواقع والتطبيقات",
+    creator: "@anycode",
+    images: ["/logo.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+};
 
 const About = () => {
   // Animation variants

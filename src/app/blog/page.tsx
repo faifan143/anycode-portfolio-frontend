@@ -4,6 +4,17 @@ import { BookText, ChevronLeft, ChevronRight, Search } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";
 import { blogsData } from "@/data/seed";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Blog",
+  description: "Latest articles about web development and technology",
+  openGraph: {
+    title: "Blog | AnyCode",
+    description: "Latest articles about web development and technology",
+    images: ["/logo.png"],
+  },
+};
 
 const Blog = () => {
   const [currentPage, setCurrentPage] = useState(1);
