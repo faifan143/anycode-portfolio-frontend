@@ -6,8 +6,7 @@ export const homeData = {
       {
         icon: "Code2",
         text: {
-          // ar: "تطوير برمجي احترافي",
-          ar: "33 الموكي حبيبي",
+          ar: "تطوير برمجي احترافي",
           en: "Professional Software Development",
         },
       },
@@ -27,7 +26,8 @@ export const homeData = {
       },
     ],
     title: {
-      ar: "حلول برمجية متكاملة",
+      // ar: "حلول برمجية متكاملة",
+      ar: "22  l,;d موكي حلول برمجية متكاملة",
       en: "Comprehensive Software Solutions",
     },
     subtitle: {
