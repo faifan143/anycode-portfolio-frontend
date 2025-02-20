@@ -180,8 +180,8 @@ export const homeData = {
         en: "Mohammad AL-Faisal Fansa",
       },
       title: {
-        ar: "مهندس برمجيات",
-        en: "Software Engineer",
+        ar: "مهندس حواسيب",
+        en: "Computer Engineer",
       },
       profileImage: {
         id: "mohammad-img",
@@ -193,7 +193,7 @@ export const homeData = {
         mimeType: "image/jpg",
       },
       bio: {
-        ar: "مهندس برمجيات متخصص في تطوير الويب وتطبيقات الموبايل و تطبيقات الذكاء الاصطناعي",
+        ar: "مهندس حواسيب متخصص في تطوير الويب وتطبيقات الموبايل و تطبيقات الذكاء الاصطناعي",
         en: "Software engineer specialized in web and mobile development and AI applications",
       },
       role: {
@@ -210,11 +210,19 @@ export const homeData = {
           en: "Mobile Development",
         },
         {
-          ar: "هندسة النظم",
-          en: "System Architecture",
+          ar: "هندسة النظم الذكية",
+          en: "AI-Based Systems Engineering",
         },
       ],
-      skills: ["React", "Node.js", "TypeScript", "React Native", "AWS"],
+      skills: [
+        "React",
+        "NextJs",
+        "Node.js",
+        "TypeScript",
+        "React Native",
+        "DevOps",
+        "AI Technical Applications",
+      ],
       education: {
         degree: {
           ar: "بكالوريوس",
@@ -225,8 +233,8 @@ export const homeData = {
           en: "Computer Engineering",
         },
         university: {
-          ar: "جامعة دمشق",
-          en: "Damascus University",
+          ar: "جامعة حلب",
+          en: "Aleppo University",
         },
         graduationYear: 2023,
       },
@@ -256,8 +264,8 @@ export const homeData = {
         en: "Karam Ghareeb",
       },
       title: {
-        ar: "مهندس برمجيات",
-        en: "Software Engineer",
+        ar: "مهندس حواسيب",
+        en: "Computer Engineer",
       },
       profileImage: {
         id: "karam-img",
@@ -269,7 +277,7 @@ export const homeData = {
         mimeType: "image/jpg",
       },
       bio: {
-        ar: "مهندس برمجيات متخصص في تطوير الويب وتطبيقات الموبايل و تطبيقات الذكاء الاصطناعي",
+        ar: "مهندس حواسيب متخصص في تطوير الويب وتطبيقات الموبايل و تطبيقات الذكاء الاصطناعي",
         en: "Software engineer specialized in web and mobile development and AI applications",
       },
       role: {
@@ -278,19 +286,19 @@ export const homeData = {
       },
       specializations: [
         {
-          ar: "تطوير الويب",
-          en: "Web Development",
+          ar: "مدير علاقات عامة و تسويق",
+          en: "PR and Marketing Manager",
         },
         {
-          ar: "الذكاء الاصطناعي",
-          en: "AI",
+          ar: "مدرب و مشرف",
+          en: "Trainer and Supervisor",
         },
         {
-          ar: "تعلم الآلة",
-          en: "Machine Learning",
+          ar: "مطور تطبيقات فلاتر",
+          en: "Flutter Developer",
         },
       ],
-      skills: ["Python", "TensorFlow", "React", "Django", "PostgreSQL"],
+      skills: ["Python", "Flutter", "expressJs", "Django", "SQL"],
       education: {
         degree: {
           ar: "بكالوريوس",
@@ -301,8 +309,8 @@ export const homeData = {
           en: "Computer Engineering",
         },
         university: {
-          ar: "جامعة دمشق",
-          en: "Damascus University",
+          ar: "جامعة حلب",
+          en: "Aleppo University",
         },
         graduationYear: 2023,
       },
@@ -331,8 +339,8 @@ export const homeData = {
         en: "Besher Hamze",
       },
       title: {
-        ar: "مهندس برمجيات",
-        en: "Software Engineer",
+        ar: "مهندس حواسيب",
+        en: "Computer Engineer",
       },
       profileImage: {
         id: "besher-img",
@@ -344,7 +352,7 @@ export const homeData = {
         mimeType: "image/jpg",
       },
       bio: {
-        ar: "مهندس برمجيات متخصص في تطوير الويب وتطبيقات الموبايل و تطبيقات الذكاء الاصطناعي",
+        ar: "مهندس حواسيب متخصص في تطوير الويب وتطبيقات الموبايل و تطبيقات الذكاء الاصطناعي",
         en: "Software engineer specialized in web and mobile development and AI applications",
       },
       role: {
@@ -353,19 +361,19 @@ export const homeData = {
       },
       specializations: [
         {
-          ar: "تطوير الويب",
-          en: "Web Development",
+          ar: "متخصص خدمات سحابية",
+          en: "Cloud Services Specialist",
         },
         {
-          ar: "الذكاء الاصطناعي",
-          en: "AI",
+          ar: "مطور مخدمات",
+          en: "Backend Developer",
         },
         {
           ar: "تعلم الآلة",
           en: "Machine Learning",
         },
       ],
-      skills: ["Python", "TensorFlow", "React", "Django", "PostgreSQL"],
+      skills: ["Python", "TensorFlow", "NestJs", "AWS", "Docker"],
       education: {
         degree: {
           ar: "بكالوريوس",
@@ -376,8 +384,8 @@ export const homeData = {
           en: "Computer Engineering",
         },
         university: {
-          ar: "جامعة دمشق",
-          en: "Damascus University",
+          ar: "جامعة حلب",
+          en: "Aleppo University",
         },
         graduationYear: 2023,
       },
@@ -406,8 +414,8 @@ export const homeData = {
         en: "Adnan Mouslli",
       },
       title: {
-        ar: "مهندس برمجيات",
-        en: "Software Engineer",
+        ar: "مهندس حواسيب",
+        en: "Computer Engineer",
       },
       profileImage: {
         id: "adnan-img",
@@ -419,7 +427,7 @@ export const homeData = {
         mimeType: "image/jpg",
       },
       bio: {
-        ar: "مهندس برمجيات متخصص في تطوير الويب وتطبيقات الموبايل و تطبيقات الذكاء الاصطناعي",
+        ar: "مهندس حواسيب متخصص في تطوير الويب وتطبيقات الموبايل و تطبيقات الذكاء الاصطناعي",
         en: "Software engineer specialized in web and mobile development and AI applications",
       },
       role: {
@@ -432,15 +440,23 @@ export const homeData = {
           en: "Web Development",
         },
         {
-          ar: "الذكاء الاصطناعي",
-          en: "AI",
+          ar: "تطوير الألعاب و النماذج ثلاثية الأبعاد",
+          en: "Unity and Unreal engine Development",
         },
         {
-          ar: "تعلم الآلة",
-          en: "Machine Learning",
+          ar: "تطوير تطبيقات الموبايل",
+          en: "Mobile Development",
         },
       ],
-      skills: ["Python", "TensorFlow", "React", "Django", "PostgreSQL"],
+      skills: [
+        "Unity",
+        "Unreal Engine",
+        "React",
+        "Angular",
+        "NestJs",
+        "Laravel",
+        "Angular",
+      ],
       education: {
         degree: {
           ar: "بكالوريوس",
@@ -451,8 +467,8 @@ export const homeData = {
           en: "Computer Engineering",
         },
         university: {
-          ar: "جامعة دمشق",
-          en: "Damascus University",
+          ar: "جامعة حلب",
+          en: "Aleppo University",
         },
         graduationYear: 2023,
       },
@@ -1077,27 +1093,27 @@ export const teamData = {
     departments: [
       {
         title: {
-          ar: "قسم الفرونت ايند",
-          en: "Frontend Department",
+          ar: "قسم العلاقات العامة والتسويق",
+          en: "PR and Marketing Department",
         },
-        icon: "Layout",
+        icon: "Users",
         chief: {
           name: {
-            ar: "محمد الفيصل فنصه",
-            en: "Mohammed Al-Faisal Fansa",
+            ar: "كرم غريب",
+            en: "Karam Ghareeb",
           },
           position: {
-            ar: "مدير قسم الفرونت ايند",
-            en: "Frontend Department Manager",
+            ar: "مدير العلاقات العامة والتسويق",
+            en: "PR and Marketing Manager",
           },
-          image: "/faisal.jpg",
+          image: "/karam.jpg",
           brief: {
-            ar: "مهندس حواسيب مختص في البرمجيات والذكاء الاصطناعي مع خبرة 3 سنوات في تطوير تطبيقات الويب والموبايل",
-            en: "Computer engineer specialized in software and AI with 3 years of experience in web and mobile app development",
+            ar: "مهندس برمجيات متخصص في تطوير الويب وتطبيقات الموبايل مع خبرة في العلاقات العامة والتسويق",
+            en: "Software engineer specialized in web and mobile development with experience in PR and marketing",
           },
           extendedBrief: {
-            ar: "خبير في تطوير واجهات المستخدم مع تركيز خاص على تحسين تجربة المستخدم وأداء التطبيقات. قاد العديد من المشاريع الناجحة وطور حلولاً مبتكرة للعديد من التحديات التقنية.",
-            en: "Expert in UI development with special focus on improving user experience and application performance. Led many successful projects and developed innovative solutions for various technical challenges.",
+            ar: "خبير في بناء وإدارة العلاقات العامة وتطوير استراتيجيات التسويق الرقمي. يتمتع بمهارات تواصل ممتازة ورؤية إبداعية لتعزيز تواجد الشركة في السوق.",
+            en: "Expert in building and managing public relations and developing digital marketing strategies. Has excellent communication skills and creative vision to enhance the company's market presence.",
           },
           education: {
             degree: {
@@ -1106,37 +1122,249 @@ export const teamData = {
             },
             university: {
               ar: "جامعة حلب",
-              en: "University of Aleppo",
+              en: "Aleppo University",
             },
-            year: "2022",
+            year: "2023",
           },
           experience: [
             {
               title: {
-                ar: "مطور واجهات أمامية",
-                en: "Frontend Developer",
+                ar: "مدير علاقات عامة وتسويق",
+                en: "PR and Marketing Manager",
               },
               company: {
                 ar: "شركة تقنية",
                 en: "Tech Company",
               },
               period: {
-                ar: "2022 - الآن",
-                en: "2022 - Present",
+                ar: "2023 - الآن",
+                en: "2023 - Present",
               },
             },
             {
               title: {
-                ar: "متدرب مطور ويب",
-                en: "Web Developer Intern",
+                ar: "مطور فلاتر",
+                en: "Flutter Developer",
               },
               company: {
                 ar: "شركة برمجيات",
                 en: "Software Company",
               },
               period: {
-                ar: "2021 - 2022",
-                en: "2021 - 2022",
+                ar: "2021 - 2023",
+                en: "2021 - 2023",
+              },
+            },
+          ],
+          skills: [
+            "Flutter",
+            "expressJs",
+            "Django",
+            "Python",
+            "Digital Marketing",
+            "Content Creation",
+            "Social Media Management",
+          ],
+          achievements: [
+            {
+              ar: "زيادة مبيعات الشركة بنسبة 35%",
+              en: "Increased company sales by 35%",
+            },
+            {
+              ar: "تطوير استراتيجية تسويق رقمي متكاملة",
+              en: "Developed comprehensive digital marketing strategy",
+            },
+            {
+              ar: "إدارة حملات إعلانية ناجحة",
+              en: "Managed successful advertising campaigns",
+            },
+          ],
+          certificates: [
+            {
+              name: "Digital Marketing Professional",
+              issuer: "Google",
+              year: "2023",
+            },
+            {
+              name: "Flutter Developer",
+              issuer: "Udemy",
+              year: "2022",
+            },
+          ],
+          socialLinks: {
+            linkedin: "https://linkedin.com/in/karam-ghareeb",
+            github: "https://github.com/karamghareeb",
+          },
+        },
+      },
+      {
+        title: {
+          ar: "قسم الموارد البشرية والمالية",
+          en: "HR and Finance Department",
+        },
+        icon: "BarChart",
+        chief: {
+          name: {
+            ar: "عدنان موصللي",
+            en: "Adnan Mouslli",
+          },
+          position: {
+            ar: "مدير الموارد البشرية والمالية",
+            en: "HR and Finance Manager (CFO)",
+          },
+          image: "/adnan.jpg",
+          brief: {
+            ar: "خبير في إدارة الموارد البشرية والشؤون المالية مع خلفية قوية في تطوير البرمجيات",
+            en: "Expert in human resources and financial affairs with a strong background in software development",
+          },
+          extendedBrief: {
+            ar: "يجمع بين الخبرة التقنية والإدارية، متخصص في تحسين العمليات المالية وإدارة الموارد البشرية. يسعى دائمًا لتطوير بيئة عمل محفزة وإدارة مالية فعالة.",
+            en: "Combines technical and administrative expertise, specialized in improving financial processes and HR management. Always strives to develop a motivating work environment and effective financial management.",
+          },
+          education: {
+            degree: {
+              ar: "بكالوريوس هندسة معلوماتية",
+              en: "Bachelor's in Information Engineering",
+            },
+            university: {
+              ar: "جامعة حلب",
+              en: "Aleppo University",
+            },
+            year: "2023",
+          },
+          experience: [
+            {
+              title: {
+                ar: "مدير الموارد البشرية والمالية",
+                en: "HR and Finance Manager",
+              },
+              company: {
+                ar: "أني كود",
+                en: "AnyCode",
+              },
+              period: {
+                ar: "2023 - الآن",
+                en: "2023 - Present",
+              },
+            },
+            {
+              title: {
+                ar: "مطور ألعاب",
+                en: "Game Developer",
+              },
+              company: {
+                ar: "استوديو تطوير",
+                en: "Development Studio",
+              },
+              period: {
+                ar: "2021 - 2023",
+                en: "2021 - 2023",
+              },
+            },
+          ],
+          skills: [
+            "Unity",
+            "Unreal Engine",
+            "Financial Management",
+            "HR Management",
+            "Team Building",
+            "Budget Planning",
+            "Analytics",
+          ],
+          achievements: [
+            {
+              ar: "تحسين كفاءة العمليات المالية بنسبة 25%",
+              en: "Improved financial operations efficiency by 25%",
+            },
+            {
+              ar: "تطوير برامج تدريب وتطوير للموظفين",
+              en: "Developed employee training and development programs",
+            },
+            {
+              ar: "إدارة ميزانية سنوية بقيمة 500 ألف دولار",
+              en: "Managed annual budget of $500K",
+            },
+          ],
+          certificates: [
+            {
+              name: "Certified Financial Manager",
+              issuer: "Financial Management Association",
+              year: "2023",
+            },
+            {
+              name: "HR Management Professional",
+              issuer: "SHRM",
+              year: "2023",
+            },
+          ],
+          socialLinks: {
+            linkedin: "https://linkedin.com/in/adnan-mouslli",
+            github: "https://github.com/adnanmouslli",
+          },
+        },
+      },
+      {
+        title: {
+          ar: "قسم البرمجيات",
+          en: "Software Department",
+        },
+        icon: "Code",
+        chief: {
+          name: {
+            ar: "محمد الفيصل فنصه",
+            en: "Mohammad Al-Faisal Fansa",
+          },
+          position: {
+            ar: "مدير قسم البرمجيات",
+            en: "Head of Software Department",
+          },
+          image: "/faisal.jpg",
+          brief: {
+            ar: "مهندس حواسيب مختص في البرمجيات والذكاء الاصطناعي مع خبرة 3 سنوات في تطوير تطبيقات الويب والموبايل",
+            en: "Computer engineer specialized in software and AI with 3 years of experience in web and mobile app development",
+          },
+          extendedBrief: {
+            ar: "خبير في تطوير البرمجيات وقيادة فرق التطوير. يتميز بمهارات تقنية متقدمة وقدرة على تنفيذ المشاريع المعقدة. ملتزم بتطبيق أفضل الممارسات وضمان جودة المنتجات.",
+            en: "Expert in software development and development team leadership. Distinguished by advanced technical skills and ability to implement complex projects. Committed to applying best practices and ensuring product quality.",
+          },
+          education: {
+            degree: {
+              ar: "بكالوريوس هندسة معلوماتية",
+              en: "Bachelor's in Information Engineering",
+            },
+            university: {
+              ar: "جامعة حلب",
+              en: "Aleppo University",
+            },
+            year: "2023",
+          },
+          experience: [
+            {
+              title: {
+                ar: "مدير قسم البرمجيات",
+                en: "Head of Software Department",
+              },
+              company: {
+                ar: "أني كود",
+                en: "AnyCode",
+              },
+              period: {
+                ar: "2023 - الآن",
+                en: "2023 - Present",
+              },
+            },
+            {
+              title: {
+                ar: "مطور واجهات أمامية",
+                en: "Frontend Developer",
+              },
+              company: {
+                ar: "شركة تطوير",
+                en: "Development Company",
+              },
+              period: {
+                ar: "2021 - 2023",
+                en: "2021 - 2023",
               },
             },
           ],
@@ -1147,19 +1375,21 @@ export const teamData = {
             "TailwindCSS",
             "Flutter",
             "React Native",
+            "Node.js",
+            "Project Management",
           ],
           achievements: [
             {
-              ar: "قيادة فريق من 5 مطورين",
-              en: "Leading a team of 5 developers",
+              ar: "قيادة فريق من 10 مطورين",
+              en: "Leading a team of 10 developers",
             },
             {
-              ar: "تطوير أكثر من 10 مشاريع ناجحة",
-              en: "Developed over 10 successful projects",
+              ar: "إدارة وتنفيذ 15+ مشروع برمجي ناجح",
+              en: "Managed and implemented 15+ successful software projects",
             },
             {
-              ar: "تحسين أداء التطبيقات بنسبة 40%",
-              en: "Improved application performance by 40%",
+              ar: "تطوير منصة تعليمية متكاملة",
+              en: "Developed an integrated educational platform",
             },
           ],
           certificates: [
@@ -1169,65 +1399,121 @@ export const teamData = {
               year: "2023",
             },
             {
-              name: "AWS Certified Developer",
-              issuer: "Amazon",
+              name: "Project Management Professional",
+              issuer: "PMI",
               year: "2023",
             },
           ],
           socialLinks: {
-            linkedin: "#",
-            github: "#",
+            linkedin: "https://www.facebook.com/faifan143",
+            github: "https://github.com/faifan143",
           },
         },
       },
       {
         title: {
-          ar: "قسم الباك ايند",
-          en: "Backend Department",
+          ar: "قسم الذكاء الاصطناعي",
+          en: "AI Department",
         },
-        icon: "Server",
+        icon: "Brain",
         chief: {
           name: {
             ar: "محمد بشر حمزه",
             en: "Mohammed Besher Hamza",
           },
           position: {
-            ar: "مدير قسم الباك اند",
-            en: "Backend Department Manager",
+            ar: "مدير قسم الذكاء الاصطناعي",
+            en: "Head of AI Department",
           },
           image: "/besher.jpg",
           brief: {
-            ar: "مهندس برمجيات متخصص في تطوير الخدمات الخلفية وقواعد البيانات مع خبرة في تصميم وتطوير API",
-            en: "Software engineer specialized in backend services and databases with experience in API design and development",
+            ar: "مهندس برمجيات متخصص في الذكاء الاصطناعي وتعلم الآلة مع خبرة في الخدمات السحابية",
+            en: "Software engineer specialized in AI and machine learning with experience in cloud services",
           },
+          extendedBrief: {
+            ar: "خبير في تصميم وتطوير حلول الذكاء الاصطناعي والتعلم الآلي. يتمتع بمعرفة عميقة في الخوارزميات والنماذج الإحصائية وتطبيقاتها في حل المشكلات المعقدة.",
+            en: "Expert in designing and developing AI and machine learning solutions. Has deep knowledge of algorithms and statistical models and their applications in solving complex problems.",
+          },
+          education: {
+            degree: {
+              ar: "بكالوريوس هندسة معلوماتية",
+              en: "Bachelor's in Information Engineering",
+            },
+            university: {
+              ar: "جامعة حلب",
+              en: "Aleppo University",
+            },
+            year: "2023",
+          },
+          experience: [
+            {
+              title: {
+                ar: "مدير قسم الذكاء الاصطناعي",
+                en: "Head of AI Department",
+              },
+              company: {
+                ar: "أني كود",
+                en: "AnyCode",
+              },
+              period: {
+                ar: "2023 - الآن",
+                en: "2023 - Present",
+              },
+            },
+            {
+              title: {
+                ar: "مهندس بيانات",
+                en: "Data Engineer",
+              },
+              company: {
+                ar: "شركة تحليلات",
+                en: "Analytics Company",
+              },
+              period: {
+                ar: "2021 - 2023",
+                en: "2021 - 2023",
+              },
+            },
+          ],
           skills: [
-            "Node.js",
             "Python",
-            "PostgreSQL",
+            "TensorFlow",
+            "PyTorch",
+            "Deep Learning",
+            "NLP",
+            "Computer Vision",
+            "AWS",
             "Docker",
-            "Nest.js",
-            "MongoDB",
           ],
           achievements: [
             {
-              ar: "تطوير بنية تحتية قوية للمشاريع",
-              en: "Developed robust infrastructure for projects",
+              ar: "تطوير نظام ذكاء اصطناعي لتحليل البيانات",
+              en: "Developed AI system for data analysis",
             },
             {
-              ar: "تحسين أداء قواعد البيانات بنسبة 50%",
-              en: "Improved database performance by 50%",
+              ar: "بناء نماذج تعلم آلي عالية الدقة",
+              en: "Built high-accuracy machine learning models",
+            },
+            {
+              ar: "إدارة مشاريع ذكاء اصطناعي متكاملة",
+              en: "Managed comprehensive AI projects",
             },
           ],
           certificates: [
             {
-              name: "Node.js Advanced Developer",
-              issuer: "Node.js Foundation",
+              name: "TensorFlow Developer",
+              issuer: "Google",
+              year: "2023",
+            },
+            {
+              name: "AWS Certified Machine Learning Specialty",
+              issuer: "Amazon",
               year: "2023",
             },
           ],
           socialLinks: {
-            linkedin: "#",
-            github: "#",
+            linkedin: "https://linkedin.com/in/besher-hamze",
+            github: "https://github.com/besherhamze",
           },
         },
       },
