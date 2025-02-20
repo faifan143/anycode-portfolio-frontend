@@ -7,7 +7,7 @@ export const homeData = {
         icon: "Code2",
         text: {
           // ar: "تطوير برمجي احترافي",
-          ar: "22هذا الموكي حبيبي",
+          ar: "33 الموكي حبيبي",
           en: "Professional Software Development",
         },
       },
