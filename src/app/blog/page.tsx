@@ -1,21 +1,14 @@
 "use client";
+import { blogsData } from "@/data/seed";
 import { AnimatePresence, motion } from "framer-motion";
 import { BookText, ChevronLeft, ChevronRight, Search } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";
-import { blogsData } from "@/data/seed";
-import { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Blog",
-  description: "Latest articles about web development and technology",
-  openGraph: {
-    title: "Blog | AnyCode",
-    description: "Latest articles about web development and technology",
-    images: ["/logo.png"],
-  },
-};
-
+// export const metadata: Metadata = {
+//   title: "Blogs",
+//   description:
+//     "مدونة متخصصة في مجالات البرمجة والتقنية تقدم محتوى معرفي قيم. مقالات تقنية شاملة، شروحات مفصلة، تجارب عملية، أحدث التقنيات والأدوات، نصائح احترافية للمطورين، وحلول للتحديات البرمجية. تصفح مكتبتنا المعرفية المتجددة واكتشف مقالات في مختلف مجالات التقنية والتطوير.",
+// };
 const Blog = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [selectedCategory, setSelectedCategory] = useState("all");

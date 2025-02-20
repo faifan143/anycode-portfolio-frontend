@@ -6,7 +6,11 @@ import { getIcon } from "@/utils/getIcon";
 import { motion } from "framer-motion";
 import { Code, Send, Terminal } from "lucide-react";
 import { useEffect, useState } from "react";
-
+// export const metadata: Metadata = {
+//   title: "Contact",
+//   description:
+//     "تواصل مع فريق AnyCode للاستفسارات والمشاريع. خدمة عملاء متميزة ودعم فني على مدار الساعة، فريق متخصص للرد على استفساراتك وتقديم الحلول المناسبة لأعمالك. زورنا في مقرنا أو راسلنا عبر نموذج الاتصال أو وسائل التواصل الاجتماعي.",
+// };
 const Contact = () => {
   const [typedText, setTypedText] = useState("");
   const [cursorVisible, setCursorVisible] = useState(true);

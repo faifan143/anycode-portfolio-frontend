@@ -1,9 +1,13 @@
 "use client";
-import { motion } from "framer-motion";
-import { Github, Linkedin, Trophy } from "lucide-react";
 import { teamData } from "@/data/seed";
 import { getIcon } from "@/utils/getIcon";
-
+import { motion } from "framer-motion";
+import { Github, Linkedin, Trophy } from "lucide-react";
+// export const metadata: Metadata = {
+//   title: "Team",
+//   description:
+//     "تعرف على فريق AnyCode المتميز من المطورين والمصممين وخبراء التقنية. مجموعة من المواهب المتخصصة بخبرات واسعة في مختلف مجالات تطوير البرمجيات. يجمع فريقنا بين المعرفة التقنية العميقة والخبرة العملية لتحويل أفكارك إلى منتجات رقمية استثنائية.",
+// };
 const Team = () => {
   // Animation variants
   const fadeInUp = {

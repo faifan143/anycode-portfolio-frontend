@@ -1,17 +1,21 @@
 "use client";
+import CourseModal from "@/components/common/courses/CourseModal";
+import PaginatedCourses from "@/components/common/courses/PaginatedCourses";
+import { coursesData } from "@/data/seed";
+import { setScrollProgressStatus } from "@/redux/reducers/wrapper.slice";
+import { AppDispatch } from "@/redux/store";
+import { Course } from "@/types/courses";
+import { getIcon } from "@/utils/getIcon";
 import { motion } from "framer-motion";
 import { Calendar, ChevronLeft, Clock, Star, Users } from "lucide-react";
-import { useState } from "react";
-import { coursesData } from "@/data/seed";
 import Image from "next/image";
-import PaginatedCourses from "@/components/common/courses/PaginatedCourses";
-import CourseModal from "@/components/common/courses/CourseModal";
-import { getIcon } from "@/utils/getIcon";
-import { Course } from "@/types/courses";
+import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { AppDispatch } from "@/redux/store";
-import { setScrollProgressStatus } from "@/redux/reducers/wrapper.slice";
-
+// export const metadata: Metadata = {
+//   title: "Courses",
+//   description:
+//     "دورات تدريبية متخصصة ومعتمدة في مجال البرمجة وتطوير المواقع والتطبيقات. تعلم على يد خبراء ومدربين محترفين، دورات عملية بمنهجية مدروسة، شهادات معتمدة، وفرص توظيف للمتفوقين. انضم لمجتمع AnyCode التعليمي وابدأ مسيرتك المهنية في عالم التكنولوجيا اليوم.",
+// };
 const Courses = () => {
   const [selectedCategory, setSelectedCategory] = useState(0);
   const [selectedCourse, setSelectedCourse] = useState<Course | null>(null);
