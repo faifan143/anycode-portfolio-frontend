@@ -2,20 +2,18 @@
 "use client";
 
 import { servicesData } from "@/data/seed";
+import { getIcon } from "@/utils/getIcon";
 import { motion } from "framer-motion";
-import { ArrowLeft, Code2 } from "lucide-react";
+import { Code2 } from "lucide-react";
 import Link from "next/link";
 import { notFound, useParams } from "next/navigation";
-import { getIcon } from "@/utils/getIcon";
 
 export default function ServiceDetail() {
   const { serviceId } = useParams();
-  // Find the service by ID
   const service = servicesData.mainServices.find(
     (service) => service.id === serviceId
   );
 
-  // If service not found, show 404
   if (!service) {
     notFound();
   }
@@ -37,15 +35,6 @@ export default function ServiceDetail() {
             animate={{ opacity: 1, y: 0 }}
             className="max-w-4xl mx-auto"
           >
-            {/* Back Button */}
-            <Link
-              href="/services"
-              className="inline-flex items-center gap-2 text-gray-400 hover:text-orange-500 transition-colors mb-8 group"
-            >
-              <ArrowLeft className="w-5 h-5 transition-transform group-hover:-translate-x-1" />
-              <span>عودة إلى الخدمات</span>
-            </Link>
-
             {/* Service Title */}
             <div className="flex items-center gap-4 mb-6">
               <div className="p-3 bg-orange-500/10 rounded-xl">
