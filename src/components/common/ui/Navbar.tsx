@@ -117,15 +117,17 @@ const Navbar = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex justify-between h-16">
             {/* Logo */}
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              className="flex items-center gap-3"
-            >
-              <span className="text-xl font-bold bg-gradient-to-r from-orange-500 to-orange-400 bg-clip-text text-transparent">
-                {navigationData.brand.logo.text.en}
-              </span>
-            </motion.div>
+            <RouteWrapper href={"/"}>
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                className="flex items-center gap-3"
+              >
+                <span className="text-xl font-bold bg-gradient-to-r from-orange-500 to-orange-400 bg-clip-text text-transparent">
+                  {navigationData.brand.logo.text.en}
+                </span>
+              </motion.div>
+            </RouteWrapper>
 
             {/* Desktop Navigation */}
             <div
