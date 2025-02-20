@@ -27,7 +27,7 @@ export const homeData = {
     ],
     title: {
       // ar: "حلول برمجية متكاملة",
-      ar: "جديد:  حلول برمجية متكاملة",
+      ar: "  حلول برمجية متكاملة",
       en: "Comprehensive Software Solutions",
     },
     subtitle: {
