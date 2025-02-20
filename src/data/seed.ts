@@ -27,7 +27,7 @@ export const homeData = {
     ],
     title: {
       // ar: "حلول برمجية متكاملة",
-      ar: "موكي حلول برمجية متكاملة12",
+      ar: "موكي حلول برمجية متكاملة",
       en: "Comprehensive Software Solutions",
     },
     subtitle: {
