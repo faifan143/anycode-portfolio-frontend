@@ -1,0 +1,15 @@
+version: '3.8' # Updated to the latest version
+
+services:
+  nextjs:
+    build: .
+    container_name: anycode-website
+    restart: always
+    ports:
+      - "3000:3000"
+    volumes:
+      # Only mount necessary files in production
+      - .:/app
+      - /app/node_modules
+      - /app/.next
+    command: pm2-runtime start npm -- start
